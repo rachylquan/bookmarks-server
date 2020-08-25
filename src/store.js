@@ -1,14 +1,18 @@
 const bookmarks = [
-  { id: 1,
+  {
+    id: 1,
     title: 'Thinkful',
     url: 'https://www.thinkful.com',
     description: 'Think outside the classroom',
-    rating: 5 },
-  { id: 2,
+    rating: 5,
+  },
+  {
+    id: 2,
     title: 'Google',
     url: '',
     description: 'Where we find everything else',
-    rating: 4 },
-]
+    rating: 4,
+  },
+];
 
-module.exports = { bookmarks }
+module.exports = { bookmarks };
