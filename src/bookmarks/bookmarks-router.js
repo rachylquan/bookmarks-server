@@ -22,6 +22,7 @@ const serializeBookmark = (bookmark) => ({
 bookmarksRouter
   .route('/')
   .get((req, res, next) => {
+    console.log('hello');
     const knexInstance = req.app.get('db');
     BookmarksService.getAllBookmarks(knexInstance)
       .then((bookmarks) => {
